@@ -18,7 +18,7 @@ export default async function Home() {
     <>
        <div className=" mt-4 ">
        <h2 className="font-bold text-center text-large">This is font Poppins</h2>
-      ​​ <h2 className="font-bold text-center text-large">ប្រភេទ font កន្ទុយរុយប្រូ</h2>
+      ​​ <h2 className="font-bold text-center text-large">ប្រភេទ font កន្ទុមរុយប្រូ</h2>
         
        </div>
       <div className="mt-10 flex justify-center flex-wrap gap-5">
