@@ -2,10 +2,12 @@
 
 import { Sidebar } from "flowbite-react";
 import  {sideBarItem}  from "./sidebarMenu";
+import UserTable from "@/app/tables/UserTable/page";
 
 export default function DashboardSidebar() {
   return (
-    <Sidebar className="min-h-screen" aria-label="Default sidebar example">
+    <Sidebar className="h-screen w-screen flex" aria-label="Default sidebar example">
+      {/* <UserTable/> */}
       <Sidebar.Items>
         <Sidebar.ItemGroup>
           {sideBarItem.map((items, index:number ) => (
